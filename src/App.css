@@ -1,33 +1,70 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+    /* animation: App-logo-spin infinite 20s linear; */
+    height: 40vmin;
+    pointer-events: none;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #434a57;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
+    from {
     transform: rotate(0deg);
-  }
-  to {
+    }
+    to {
     transform: rotate(360deg);
-  }
+    }
+}
+/*
+.lerolero {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    flex-direction: column;
+
+} */
+
+.lerolero {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: #282c34;
+    /* background-color: #434a57; */
+    padding: 50px;
+    border-left: 4px #fc9686 solid;
+    border-bottom: 4px #fc9686 solid;
+    border-top: 4px solid #392d5a;
+    border-right: 4px solid #392d5a;
+}
+
+.lerolero-item {
+    /* color: #282c34; */
+    flex-direction: column;
+    justify-items: center;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #fc9686;
+    border: 4px solid #392d5a;
+    cursor: pointer;
 }
